@@ -1,3 +1,4 @@
+//Code by milstrike
 #include <UTFT.h> 
 #include <URTouch.h>
 
@@ -27,4 +28,3 @@ void drawScreen(){
   myGLCD.setFont(SmallFont); // Set font size
   myGLCD.print("by: milstrike", LEFT, 41); // Print String
 }
-
