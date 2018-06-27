@@ -90,35 +90,28 @@ void softKey(){
   myGLCD.setColor(0,0,0);
   myGLCD.fillRect(0,290,239,319);
 
-  //drawHomeButton
-
   myGLCD.setColor(0,0,0);
   myGLCD.drawRect(115,297,130,312);
   myGLCD.drawRect(50,297,65,311);
   myGLCD.drawRect(178,297,191,311);
   
-  myGLCD.setColor(255,255,255);  
-     //myGLCD.drawLine(0,297,239,297);
-     //myGLCD.drawLine(0,311,239,311);
-    // myGLCD.drawRect(115,297,130,312);
-    // myGLCD.drawRect(50,297,65,311);
-    myGLCD.fillCircle(122,304,8);
-    myGLCD.fillRect(178,297,191,311);
+  myGLCD.setColor(255,255,255);
+  myGLCD.fillCircle(122,304,8);
+  myGLCD.fillRect(178,297,191,311);
 
-    myGLCD.drawLine(64,297,65,297);
-    myGLCD.drawLine(62,298,65,298);
-    myGLCD.drawLine(60,299,65,299);
-    myGLCD.drawLine(58,300,65,300);
-    myGLCD.drawLine(56,301,65,301);
-    myGLCD.drawLine(54,302,65,302);
-    myGLCD.drawLine(52,303,65,303);
-    myGLCD.drawLine(50,304,65,304);
-    myGLCD.drawLine(52,305,65,305);
-    myGLCD.drawLine(54,306,65,306);
-    myGLCD.drawLine(56,307,65,307);
-    myGLCD.drawLine(58,308,65,308);
-    myGLCD.drawLine(60,309,65,309);
-    myGLCD.drawLine(62,310,65,310);
-    myGLCD.drawLine(64,311,65,311);
+  myGLCD.drawLine(64,297,65,297);
+  myGLCD.drawLine(62,298,65,298);
+  myGLCD.drawLine(60,299,65,299);
+  myGLCD.drawLine(58,300,65,300);
+  myGLCD.drawLine(56,301,65,301);
+  myGLCD.drawLine(54,302,65,302);
+  myGLCD.drawLine(52,303,65,303);
+  myGLCD.drawLine(50,304,65,304);
+  myGLCD.drawLine(52,305,65,305);
+  myGLCD.drawLine(54,306,65,306);
+  myGLCD.drawLine(56,307,65,307);
+  myGLCD.drawLine(58,308,65,308);
+  myGLCD.drawLine(60,309,65,309);
+  myGLCD.drawLine(62,310,65,310);
+  myGLCD.drawLine(64,311,65,311);
 }
-
